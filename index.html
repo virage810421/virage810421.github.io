@@ -1,11 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>關於我 | 資料分析與開發專家</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: var(--accent-color);
+            margin-top: 30px;
+        }
+        .intro {
+            font-size: 1.1em;
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+        .skill-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .skill-item {
+            background: #eef2f3;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .skill-item strong {
+            display: block;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+        .highlight {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>這是我的個人履歷</h1>
+
+<div class="container">
+    <h1>你好，我是資料的導航員</h1>
+    
+    <p class="intro">
+        「我不只是在處理數據，我是在挖掘隱藏在數位迷霧背後的真實故事。」
+    </p>
+
+    <p>
+        你好！我是你的數據合作夥伴。我擁有敏銳的洞察力與紮實的技術底蘊，擅長將雜亂無章的原始資料轉換為具備決策價值的視覺洞見。我追求的不僅是技術上的精確，更是如何用最簡潔、直觀的方式解決複雜的商業問題。
+    </p>
+
+    <hr>
+
+    <h2>核心專業技能</h2>
+    <div class="skill-grid">
+        <div class="skill-item">
+            <strong>SQL Server 數據管理</strong>
+            精通資料庫架構設計與分析，確保每一條查詢都能精準、高效地回應業務需求。
+        </div>
+        <div class="skill-item">
+            <strong>Power BI 視覺化報表</strong>
+            不只是畫圖，而是透過報表敘事，讓數據自己說話，引導管理階層做出正確決策。
+        </div>
+        <div class="skill-item">
+            <strong>DAX 深度查詢分析</strong>
+            擅長撰寫複雜的 DAX 公式，解決進階的計算邏輯，挖掘數據深層的關聯。
+        </div>
+        <div class="skill-item">
+            <strong>Python 靈活開發</strong>
+            利用 Python 進行資料清洗、自動化腳本開發或進階統計分析，提升整體工作流效率。
+        </div>
+    </div>
+
+    <h2>我的求職願景</h2>
+    <p>
+        我正在尋找一個能夠發揮<span class="highlight">「數據影響力」</span>的舞台。我希望加入一個重視實事求是、願意透過數據驅動決策的團隊。我提供的無非是專業的技術，更是一份對優化流程與追求真實的熱誠。
+    </p>
+
+    <p>
+        如果你正在尋找一位既懂底層資料結構，又能產出高階分析洞見的夥伴，我想我們會有聊不完的話題。
+    </p>
+
+    <div class="footer">
+        <p>期待與您共同創造數據價值</p>
+    </div>
+</div>
+
 </body>
 </html>
